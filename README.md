@@ -6,6 +6,9 @@
 
 **Python version : 3.9+**
 
+**команда клонирования**
+
+    git clone https://github.com/TELIDAS/social_network.git
 
 **команда загрузки всех зависимостей**
 
