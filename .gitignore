@@ -1,0 +1,12 @@
+.idea
+.env
+venv
+*.pyc
+*.sqlite3
+*~
+virtualenv
+.vscode/
+__pychache__/
+*.py[cod]
+*$py.class
+*.so
