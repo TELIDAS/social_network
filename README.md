@@ -1,28 +1,26 @@
-# ПРОЕКТ
+# PROJECT
 
-**Сервер Social Network**
+**Server for Social Network**
 
-# ЗАВИСИМОСТИ
+# Requirements
 
 **Python version : 3.9+**
 
-**команда клонирования**
+**Clone command**
 
     git clone https://github.com/TELIDAS/social_network.git
 
-**команда загрузки всех зависимостей**
-
-    pip install -r requirements.txt
-
-# СОЗДАНИЕ ВИРТУАЛЬНОЙ СРЕДЫ
+# Creation venv
 
 # ------FOR LINUX/MAC---------
 **installing venv** 
 
     sudo apt-get install python3.9-venv
+    
 **creating virtual venv**
 
     python3 -m venv venv
+    
 **activating virtual venv**
 
     source env/bin/activate
@@ -31,13 +29,19 @@
 **installing venv**
 
     py -m pip install --user virtualenv
+    
 **creating virtual venv**
 
     py -m venv venv
+    
 **activating virtual venv**
 
     .\env\Scripts\activate
+   
+**Command to install all requirements**
 
-# Команда для запуска сервера
+    pip install -r requirements.txt
 
-    python manage.py runsserver
+# Command to runserver
+
+    python manage.py runserver
